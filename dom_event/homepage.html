@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta viewport="width=device-width, initial-scale=1.0">
+        <title> DOM (Document Object Model) </title>
+    </head>
+
+    <body>
+
+        <h1 id="judul"> 
+            Hello, User! 
+        </h1>
+
+        <!-- EVENT ONCLICK-->
+        <button onclick="ubahJudul()"> <!-- inline event -->
+            Onclick 1!
+        </button>
+
+        <button id="btn"> <!-- Menggunakan anonymous function, addEventListener -->
+            Onclick 2!
+        </button>
+
+        <br> <br>
+
+        <!-- =================== CHALLENGE 1 ==================== -->
+        <h2 id="welcome">
+            Selamat Datang di Latihan Event JavaScript!
+        </h2>
+
+        <button onclick="tombolPertama()">
+            B: 1
+        </button>
+
+        <button onclick="tombolKedua()">
+            B: 2
+        </button>
+
+        <!-- =================== CHALLENGE 2 ==================== -->
+        <h2 id="lampu">
+            INI LAMPU
+        </h2>
+
+        <button onclick="lampuOn()">
+            On
+        </button>
+
+        <button onclick="lampuOff()">
+            Off
+        </button>
+
+        <!-- =================== CHALLENGE 3 ==================== -->
+        <h2 id="login">
+            Silahkan Login, User!
+        </h2>
+
+        <button onclick="loginUser()">
+            Login
+        </button>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
